@@ -1,0 +1,519 @@
+
+.container{
+    display: flex;
+    /* margin: 200px 0px 0px 200px; */
+    align-self: center;
+    padding-bottom: 50px;
+}
+.intro{
+    background-color: beig;
+    display: flex;
+    
+}
+.introtext h1{
+    color: #6F6F6F;
+    font-size: 32px;
+    padding: 0px 0px 0px 0px;
+    width: 750px;
+    margin: 100px 0px 20px 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+}  
+
+.introtext h1:hover, .introtext h1:active{
+    background: #d1d1d1;
+    border-radius: 10px;
+  }
+.introtext l{
+    font-size: 32px;
+    font-weight: 700;
+    color: black;
+    padding: 0px 0px 0px 0px;
+    width: 600px;
+    margin: 100px 0px 0px 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.introtext p{
+    /* font-size: 32px;
+    font-weight: 700; */
+    /* color: black; */
+    padding: 0px 0px 30px 0px;
+    width: 740px;
+    margin: 00px 0px 0px 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.profilepicture img{
+    width: 440px;
+    height: ;
+    padding: 0px 0px 0px 120px;
+    margin-top: 0px;
+    align-content: center;
+}
+.profilepicture1{
+    display: flex;
+}
+.contact_icons{
+    display: flex;
+    padding: 0px 0px 0px 50px;
+    width: 90px;
+
+}
+
+.icon{
+    background-color: #D9D9D9;
+    width: 67px;
+    height: 52px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 40px;
+    box-shadow:0px 4px 6px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+  }
+  .icon:hover, .icon:active{
+    background: #d1d1d1;
+    border-radius: 10px;
+    transition: 0.5s;
+  }
+
+  /* the container design............................................................................ 1 */
+.product-container1 {
+    display: ;
+    margin: auto;
+    background-color: #171616;
+    width: 95%;
+    border: 10px red;
+    border-radius: 67px;
+    padding: 20px 0px 40px 0px;
+    box-shadow:0px 4px 6px rgba(0, 0, 0, 0.25);
+}
+.product-container1:hover, .product-container1:active{
+    /* background: #d1d1d1; */
+    border-radius: 30px;
+    width: 98%;
+    transition: 0.5s;
+  }
+
+.product-text-content{
+    padding: 10px 0px 0px 90px;
+    width: 550px;
+    display: flex
+
+}
+.product-logo{
+    padding: 0px 0px 0px 90px;
+}
+.product-banner{
+    width: 60px;
+}
+.product-banner img{
+    display: flex;
+    width: 650px;
+    padding: 0px 0px 0px 10px;
+    margin: 0px 0px 10px 0px;
+}
+.product-timeline {
+    width: 600px;
+}
+.product-timeline h1{
+    color:#9AF98A;
+    font-size: 20px;
+    font-weight: 60px;
+}
+.product-timeline p{
+    color: rgb(255, 255, 255);
+    font-size: 20;
+    font-weight: 20px;
+}
+.project-summary h1{
+    color:#9AF98A;
+    font-size: 20px;
+    font-weight: 60px;
+}
+.project-summary p{
+    color: rgb(255, 255, 255);
+    font-size: 20;
+    font-weight: 20px;
+}
+.view-project a{
+    color:#9AF98A;
+    font-size: 20px;
+    font-weight: 60px;
+    border: 1px solid ;
+    border-radius: 5px;
+    width:max-content;
+    cursor: pointer;
+    text-decoration: none
+    
+}
+
+ /* the container design............................................................................ 2 */
+ .product-container2 {
+    display: ;
+    margin: auto;
+    background-color: #674feda2;
+    width: 95%;
+    border: 10px red;
+    border-radius: 67px;
+    padding: 20px 0px 40px 0px;
+    box-shadow:0px 4px 6px rgba(0, 0, 0, 0.25);
+}
+.product-container2:hover, .product-container2:active{
+    /* background: #d1d1d1; */
+    border-radius: 30px;
+    width: 98%;
+    transition: 0.5s;
+  }
+
+.product-text-content2{
+    padding: 10px 0px 0px 90px;
+    width: 550px;
+    display: flex
+
+}
+.product-logo2{
+    padding: 0px 0px 0px 90px;
+}
+.product-banner2{
+    width: 60px;
+}
+.product-banner2 img{
+    display: flex;
+    width: 650px;
+    padding: 0px 0px 0px 10px;
+    margin: auto;
+}
+.product-timeline2 {
+    width: 600px;
+}
+.product-timeline2 h1{
+    color:#664FED;
+    font-size: 20px;
+    font-weight: 60px;
+}
+.product-timeline2 p{
+    color: rgb(255, 255, 255);
+    font-size: 20;
+    font-weight: 20px;
+}
+.project-summary2 h1{
+    color:#664FED;
+    font-size: 20px;
+    font-weight: 60px;
+}
+.project-summary2 p{
+    color: rgb(255, 255, 255);
+    font-size: 20;
+    font-weight: 20px;
+}
+.view-project2 a{
+    color:#664FED;
+    font-size: 20px;
+    font-weight: 60px;
+    border: 1px solid ;
+    border-radius: 5px;
+    width:max-content;
+    cursor: pointer;
+    text-decoration: none
+    
+}
+
+ /* the container design....................................................... 3 */
+ .product-container3 {
+    display: ;
+    margin: auto;
+    background-color: #ffffffa2;
+    width: 95%;
+    border: 10px red;
+    border-radius: 67px;
+    padding: 20px 0px 40px 0px;
+    box-shadow:0px 4px 6px rgba(0, 0, 0, 0.25);
+}
+.product-container3:hover, .product-container3:active{
+    /* background: #d1d1d1; */
+    border-radius: 30px;
+    width: 98%;
+    transition: 0.5s;
+  }
+
+.product-text-content3{
+    padding: 10px 0px 0px 90px;
+    width: 550px;
+    display: flex
+
+}
+.product-logo3{
+    padding: 0px 0px 0px 30px;
+}
+.product-banner3{
+    width: 60px;
+}
+@media screen and (max-width:900px){
+    .product-banner3{
+        width: ;
+    }
+}
+.product-banner3 img{
+    display: flex;
+    width: 650px;
+    padding: 0px 0px 0px 10px;
+    margin: auto;
+}
+.product-timeline2 {
+    width: 600px;
+}
+.product-timeline3 h1{
+    color:#042C95;
+    font-size: 20px;
+    font-weight: 60px;
+}
+.product-timeline3 p{
+    color: rgb(0, 0, 0);
+    font-size: 20;
+    font-weight: 20px;
+}
+.project-summary3 h1{
+    color:#042C95;
+    font-size: 20px;
+    font-weight: 60px;
+}
+.project-summary3 p{
+    color: rgb(0, 0, 0);
+    font-size: 20;
+    font-weight: 20px;
+}
+.view-project3 a{
+    color:#042C95;
+    font-size: 20px;
+    font-weight: 60px;
+    border: 1px solid ;
+    border-radius: 5px;
+    width:max-content;
+    cursor: pointer;
+    text-decoration: none
+}
+    
+ /* the container design....................................................... 4 */
+
+ .product-container4 {
+    display: ;
+    margin: auto;
+    background-color: #09455A;
+    width: 95%;
+    border: 10px red;
+    border-radius: 67px;
+    padding: 20px 0px 40px 0px;
+    box-shadow:0px 4px 6px rgba(0, 0, 0, 0.25);
+}
+.product-container4:hover, .product-container4:active{
+    /* background: #d1d1d1; */
+    border-radius: 30px;
+    width: 98%;
+    transition: 0.5s;
+  }
+
+.product-text-content4{
+    padding: 10px 0px 0px 90px;
+    width: 550px;
+    display: flex
+
+}
+.product-logo4{
+    padding: 0px 0px 0px 30px;
+}
+.product-banner4{
+    width: 60px;
+}
+@media screen and (max-width:900px){
+    .product-banner3{
+        width: ;
+    }
+}
+.product-banner4 img{
+    display: flex;
+    width: 900px;
+    padding: 0px 0px 0px 10px;
+    margin: auto;
+}
+.product-timeline4 {
+    width: 600px;
+}
+.product-timeline4 h1{
+    color:#DE6161;
+    font-size: 20px;
+    font-weight: 60px;
+}
+.product-timeline4 p{
+    color: #ffffff;
+    font-size: 20;
+    font-weight: 20px;
+}
+.project-summary4 h1{
+    color:#DE6161;
+    font-size: 20px;
+    font-weight: 60px;
+}
+.project-summary4 p{
+    color: #ffffff;
+    font-size: 20;
+    font-weight: 20px;
+}
+.view-project4 a{
+    color:#DE6161;
+    font-size: 20px;
+    font-weight: 60px;
+    border: 1px solid ;
+    border-radius: 5px;
+    width:max-content;
+    cursor: pointer;
+    text-decoration: none
+}
+
+   
+ /* the container design....................................................... 5 */
+
+ .product-container5 {
+    display: ;
+    margin: auto;
+    background-color: #121F63;
+    width: 95%;
+    border: 10px red;
+    border-radius: 67px;
+    padding: 20px 0px 40px 0px;
+    box-shadow:0px 4px 6px rgba(0, 0, 0, 0.25);
+}
+.product-container5:hover, .product-container5:active{
+    /* background: #d1d1d1; */
+    border-radius: 30px;
+    width: 98%;
+    transition: 0.5s;
+  }
+
+.product-text-content5{
+    padding: 10px 0px 0px 90px;
+    width: 550px;
+    display: flex
+
+}
+.product-logo5{
+    padding: 0px 0px 0px 30px;
+}
+.product-banner5{
+    width: 60px;
+}
+@media screen and (max-width:900px){
+    .product-banner3{
+        width: ;
+    }
+}
+.product-banner5 img{
+    display: flex;
+    width: 900px;
+    padding: 0px 0px 0px 10px;
+    margin: auto;
+}
+.product-timeline5 {
+    width: 600px;
+}
+.product-timeline5 h1{
+    color:#2FCEFC;
+    font-size: 20px;
+    font-weight: 60px;
+}
+.product-timeline5 p{
+    color: #ffffff;
+    font-size: 20;
+    font-weight: 20px;
+}
+.project-summary5 h1{
+    color:#2FCEFC;
+    font-size: 20px;
+    font-weight: 60px;
+}
+.project-summary5 p{
+    color: #ffffff;
+    font-size: 20;
+    font-weight: 20px;
+}
+.view-project5 a{
+    color:#2FCEFC;
+    font-size: 20px;
+    font-weight: 60px;
+    border: 1px solid ;
+    border-radius: 5px;
+    width:max-content;
+    cursor: pointer;
+    text-decoration: none
+}
+
+
+
+
+
+.likemywork{
+    margin: 20px 0px 0px 50px;
+    width: 50%;
+}
+.likemywork h1, h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+.likemywork p{
+    width: 70%;
+}
+.sendmessage{
+    margin: 2em 4em;
+    padding: 1em 2em;
+    border: solid 1px #ccc;
+    border-radius: 60px;
+    min-width: 200px;
+    padding-top: 20px;
+    width: 50%;
+}
+
+label{
+    display: block;
+}
+input{
+    border: solid 1px #ccc;
+    border-radius: 6px; 
+}
+input[type="email"], [type="name"] {
+ width: 15em;
+}
+input[type="text"] {
+    min-height: 8em;
+    min-width: 80%;
+    
+   }
+button[type="submit"], [type="reset"]{
+    margin-top: 20px;
+    background-color: #000000;
+    border: solid 1px #ccc;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 30%;
+    
+}
+
+legend{
+    font-size: 1.25em;
+    padding: 0 .25em;
+    color: #999;
+}
+.sendmessage li{
+    width: 900px;
+}
+.conclusion{
+    display: flex;
+}
+footer h4{
+   margin: auto;
+}
+
+
+
+
+

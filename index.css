@@ -375,6 +375,57 @@ body{
                         width: 100%;
                     }
                     }
+
+                    @media screen and (max-width:430px){
+                        .product-banner img{
+                            width: 270px;
+                        }
+                       
+                        .product-text-content{
+                            width: 320px;
+                        }
+                        .product-timeline{
+                            width: 350px;
+                        }
+                        .product-timeline h1{
+                            width: 200px;
+                        }
+                        .product-timeline p{
+                            width: 200px;
+                        }
+
+                        .project-summary h1{
+                            width: 200px;
+                        }
+                        .project-summary p{
+                            width: 100%;
+                        }
+                        }
+                    @media screen and (max-width:428px){
+                        .product-banner img{
+                            width: 270px;
+                        }
+                       
+                        .product-text-content{
+                            width: 320px;
+                        }
+                        .product-timeline{
+                            width: 350px;
+                        }
+                        .product-timeline h1{
+                            width: 200px;
+                        }
+                        .product-timeline p{
+                            width: 200px;
+                        }
+
+                        .project-summary h1{
+                            width: 200px;
+                        }
+                        .project-summary p{
+                            width: 100%;
+                        }
+                        }
                     @media screen and (max-width:414px){
                         .product-banner img{
                             width: 270px;
@@ -471,7 +522,7 @@ body{
     display: ;
     margin: auto;
     background-color: #674fedb6;
-    
+
     width: 95%;
     border: 10px red;
     border-radius: 67px;
@@ -584,6 +635,31 @@ body{
                         width: 100%;
                     }
                     }
+
+                    @media screen and (max-width:430px){
+                        .product-banner6 img{
+                            width: 270px;
+                        }
+                       
+                        .product-text-content6{
+                            width: 320px;
+                        }
+                        .product-timeline6{
+                            width: 350px;
+                        }
+                        }
+                    @media screen and (max-width:428px){
+                        .product-banner6 img{
+                            width: 270px;
+                        }
+                       
+                        .product-text-content6{
+                            width: 320px;
+                        }
+                        .product-timeline6{
+                            width: 350px;
+                        }
+                        }
 
                     @media screen and (max-width:414px){
                         .product-banner6 img{
@@ -753,6 +829,52 @@ body{
                         width:100%;
                     }
                     }
+                    @media screen and (max-width:430px){
+                        .product-banner3 img{
+                            width: 270px;
+                        }
+                       
+                        .product-text-content3{
+                            width: 320px;
+                        }
+                        .product-timeline3{
+                            width: 350px;
+                        }
+                        .product-summary3 p{
+                            width: 400px;
+                        }
+                        }
+
+                    @media screen and (max-width:428px){
+                        .product-banner3 img{
+                            width: 270px;
+                        }
+                       
+                        .product-text-content3{
+                            width: 320px;
+                        }
+                        .product-timeline3{
+                            width: 350px;
+                        }
+                        .product-summary3 p{
+                            width: 400px;
+                        }
+                        }
+                    @media screen and (max-width:428px){
+                        .product-banner3 img{
+                            width: 270px;
+                        }
+                       
+                        .product-text-content3{
+                            width: 320px;
+                        }
+                        .product-timeline3{
+                            width: 350px;
+                        }
+                        .product-summary3 p{
+                            width: 400px;
+                        }
+                        }
                     @media screen and (max-width:414px){
                         .product-banner3 img{
                             width: 270px;
@@ -937,14 +1059,32 @@ body{
                         width: 100%;
                     }
                     }
-                    @media screen and (max-width:403px){
+
+                    @media screen and (max-width:430px){
                         .product-banner4 img{
                             width: 270px;
                         }
-                        .project-summary4 p{
-                            width: 100%;
+                       
+                        .product-text-content4{
+                            width: 320px;
+                        }
+                        .product-timeline4{
+                            width: 350px;
                         }
                         }
+                    @media screen and (max-width:428px){
+                        .product-banner4 img{
+                            width: 270px;
+                        }
+                       
+                        .product-text-content4{
+                            width: 320px;
+                        }
+                        .product-timeline4{
+                            width: 350px;
+                        }
+                        }
+                  
                         @media screen and (max-width:414px){
                             .product-banner4 img{
                                 width: 270px;
@@ -970,6 +1110,14 @@ body{
                                 width: 350px;
                             }
                             }
+                            @media screen and (max-width:403px){
+                                .product-banner4 img{
+                                    width: 270px;
+                                }
+                                .project-summary4 p{
+                                    width: 100%;
+                                }
+                                }
 
                         @media screen and (max-width:393px){
                             .product-banner4 img{
@@ -1107,6 +1255,31 @@ body{
                         width: 100%;
                     }
                     }
+                    @media screen and (max-width:430px){
+                        .product-banner5 img{
+                            width: 270px;
+                        }
+                       
+                        .product-text-content5{
+                            width: 320px;
+                        }
+                        .product-timeline5{
+                            width: 350px;
+                        }
+                        } 
+
+                    @media screen and (max-width:428px){
+                        .product-banner5 img{
+                            width: 270px;
+                        }
+                       
+                        .product-text-content5{
+                            width: 320px;
+                        }
+                        .product-timeline5{
+                            width: 350px;
+                        }
+                        } 
 
                      @media screen and (max-width:412px){
                             .product-banner5 img{
@@ -1289,7 +1462,8 @@ footer h4{
         width: 50%;
 }
 
-@media screen and (max-width:393px){
+
+@media screen and (max-width:430px){
     .conclusion{
         width:390px;
         display: flex;
@@ -1326,6 +1500,48 @@ footer h4{
         font-size: 12px;
     }
 }
+
+
+
+@media screen and (max-width:428px){
+    .conclusion{
+        width:390px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .likemywork {
+        
+        
+        width: 80%;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    .likemywork h1, h2{
+        width: 90%;
+        font-size: 23px;
+        font-weight: 700;
+    }
+    .likemywork p{
+        margin: 0px 0px 0px 0px;
+        width: 100%;
+    }
+
+    .sendmessage{
+        margin: auto;
+        /* padding: 1em 2em; */
+        border: solid 1px #000000;
+        border-radius: 60px;
+        min-width: 200px;
+        padding-top: 20px;
+        width: 85%;
+    }
+    footer h4{
+        font-size: 12px;
+    }
+}
+
+
 @media screen and (max-width:414px){
     .conclusion{
         width:390px;
@@ -1365,6 +1581,43 @@ footer h4{
 }
 
 @media screen and (max-width:412px){
+    .conclusion{
+        width:390px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .likemywork {
+        
+        
+        width: 80%;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    .likemywork h1, h2{
+        width: 90%;
+        font-size: 23px;
+        font-weight: 700;
+    }
+    .likemywork p{
+        margin: 0px 0px 0px 0px;
+        width: 100%;
+    }
+
+    .sendmessage{
+        margin: auto;
+        /* padding: 1em 2em; */
+        border: solid 1px #000000;
+        border-radius: 60px;
+        min-width: 200px;
+        padding-top: 20px;
+        width: 85%;
+    }
+    footer h4{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:393px){
     .conclusion{
         width:390px;
         display: flex;

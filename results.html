@@ -10,11 +10,28 @@
     <div id="results"></div>
     <a href="index.html">Back to Home</a>
     <script>
-        const resultslist=document.getElementById('results')
-        new URLSearchParams(window.location.search).forEach((value,name)=> {
-            resultslist.append('${name}: ${value}')
-            resultslist.append(document.createElement('br'))
-        })
+        function resultsHtml() {
+            let name = document.feedback.name.value;
+            let email = document.feedback.email.value;
+            let message = document.feedback.message.value;
+
+            name = parseFloat(name);
+            email = parseFloat(email);
+            message = parseFloat(message);
+
+            document.getElementById("feedbackform").innerHTML = name;
+        }
+
+
+
+
+
+
+        // const resultslist=document.getElementById('results')
+        // new URLSearchParams(window.location.search).forEach((value,name)=> {
+        //     resultslist.append('${name}: ${value}')
+        //     resultslist.append(document.createElement('br'))
+        // })
     </script>
 </body>
 </html>
